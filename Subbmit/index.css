@@ -1,0 +1,171 @@
+body {
+    font-family: Arial;
+    margin: 0px auto;
+}
+#logo {
+    margin: 10px;
+    float: left;
+    width: 125px;
+    height: 55px;
+}
+#navigation {
+    list-style: none;
+    text-align: right;
+}
+#navigation li {
+    display: inline-block;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    color: gray;
+}
+nav {
+    background-color: black;
+    padding: 2px;
+}
+#home_button {
+    padding: 10px;
+}
+#social {
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;    
+    margin-right: 50px;
+}
+#header {
+    background-image: url(./img/Welcome_banner_XL.jpg);
+    height: 428px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#information {
+    margin-top: 0px;
+    text-align: center;
+    box-shadow: 10px gray;
+    background-color: rgb(240, 240, 240);
+}
+.info {
+    background-color: white;
+}
+#information img {
+    width: 400px;
+    height: 270px;
+}
+#information div {
+    display: inline-block;
+    margin: 20px;
+    
+}
+#information p {
+    display: inline-block;
+    width: 380px;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+}
+#para {
+    text-align: center;
+    width: 1000px;
+    margin: 20px auto;
+}
+#quote {
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(243, 232, 232);
+}
+#quote h3 {
+    font-weight: lighter;
+    font-family: 'Calibri';
+    font-size: 70px;
+    
+    margin: 0px;
+}
+#quote p {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0px;
+}
+#rocket_background {
+    background-image: url(./img/starter_package_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#rocket img {
+    height: 200px;
+    width: 200px;
+}
+#rocket {
+    display: inline-block;
+    margin: 20px;
+    padding: 40px;
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 250px;
+}
+#rocket h4 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Calibri';
+    width: 120px;
+    height: 60px;
+    font-size: x-large;
+    margin: 5px auto;
+}
+#icon {
+    text-align: center;
+}
+#icon img {
+    height: 110px;
+    width: 160px;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+.all_icons {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    align-items: center;
+    border-radius: 10px;
+}
+.all_icons h4 {
+    width: 200px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px auto;
+}
+#i1 {
+    background-color: rgb(0, 255, 21);
+}
+#i2 {
+    background-color: rgb(255, 0, 0);
+}
+#i3 {
+    background-color: rgb(255, 187, 0);
+}
+#i4 {
+    background-color: rgb(0, 255, 213);
+}
+#i5 {
+    background-color: rgb(255, 0, 140);
+}
+#i6 {
+    background-color: rgb(0, 183, 255);
+    margin-bottom: 20px;
+}
+#i7 {
+    background-color: brown;
+    margin-bottom: 50px;
+}
+#footer {
+    height: 50px;
+    background-color: black;
+}

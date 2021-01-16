@@ -1,0 +1,33 @@
+HTML Code
+
+<div>
+        <ul id="social">
+            <li><img src="./img/Facebook_Icon.png" alt="" id="social_logo"></li>
+            <li>Facebook</li>
+            <li><img src="./img/Instagram_Icon.png" alt="" id="social_logo"></li>
+            <li>Instergram</li>
+            <li><img src="./img/LinkedIn_Icon.png" alt="" id="social_logo"></li>
+            <li>LinkedIn</li>
+        </ul>
+    </div>
+
+CSS Code
+
+#social {
+    list-style: none;
+    text-align: center;
+    background-color: gray;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+}
+#social li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+#social_logo {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    margin-left: 0px;
+}
